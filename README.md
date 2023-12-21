@@ -2,6 +2,9 @@
 This Python Script Generates a Nitro Promotion Link Via Opera GX's Extremely exploitable API
 To use Just simply change {your_webhook} to a discord webhook of your choice
 ![image](https://github.com/Super-Sonic-Ninja/nitro-promo-gen/assets/114087198/5ebf7347-d791-4ec6-b2d5-09f2163ad00d)
+## Usage
+To use the script simply open Up CMD (Windows + R) then cmd and enter then navigate to the directory its in (Usually Downloads) So cd "Dir" then run py freenitro.py
+![image](https://github.com/Super-Sonic-Ninja/nitro-promo-gen/assets/114087198/19ab5fd0-91db-4cf1-aa5e-936d29a00eb6)
 ## How does it work?
 It sends a Post Request to https://api.discord.gx.games/v1/direct-fulfillment as application/json and the body as partnerUserId as the key and a random uuid4 string (Which is basically a random pattern of letters and numbers sort of like an ID you'd usually find) as the value as this is what Opera GX does and grabs the ey promotion token
 It then sends to the webhook https://discord.com/billing/partner-promotions/1180231712274387115/{token} https://discord.com/billing/partner-promotions/ is the link every promotion uses and 1180231712274387115 is the ID of the promotion which in our case is Opera GX's 

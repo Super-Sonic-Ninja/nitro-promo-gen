@@ -8,3 +8,7 @@ It then sends to the webhook https://discord.com/billing/partner-promotions/1180
 It then puts the ey promotion token after the link and then the process is complete
 ### I recommend you don't put anything below 1.5 timeout as you might get ratelimited and you won't ever use that much nitro
 ![image](https://github.com/Super-Sonic-Ninja/nitro-promo-gen/assets/114087198/f0394bb3-678e-47e0-9698-56f7ba31982e)
+## If you want to manually do this
+Go to https://www.postman.com/grey-shuttle-185873/workspace/example-opera-gx/request/29228469-89b72296-003c-4546-993e-110f8fdf9f2a?tab=params and fork it then you can generate a random uuid4 string using https://www.uuidgenerator.net/version4 and send the request,
+You then get the token value and paste it after https://discord.com/billing/partner-promotions/ and then you've got a fresh promotion link
+![image](https://github.com/Super-Sonic-Ninja/nitro-promo-gen/assets/114087198/11b1cdbb-0595-4d7b-9378-89465f63912b)
